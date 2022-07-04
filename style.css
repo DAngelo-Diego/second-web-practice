@@ -1,0 +1,178 @@
+#title{
+    color: rgb(255, 197, 5);
+
+}
+p.special{
+    color: aquamarine;
+}
+p.text{
+    color: rgb(66, 51, 168);
+}
+
+
+div p {
+    color: brown;
+}
+  
+
+div h2, div h3 {
+    color: cornflowerblue;
+}
+
+
+* { 
+    font-size: 14px;
+  
+}
+
+/* This is a comment LLALALALALA
+
+.color {
+    color: #ff0000 ;
+}
+.color {
+    color:rgb(0, 255,255) }
+ */
+
+ .color {
+    /* border: 5px rgb(255, 197, 5) ridge ; */
+    border-style: solid;
+    border-color: rgb(231, 171, 19);
+    border-radius: 5px;
+    border-width: 1mm;
+    }
+
+    #back {
+        background-color: rgb(255, 3, 3);
+        /* opacity: 0.3; */
+        height: 200px;
+       
+        background: #f00 url('coffee.png') repeat-y center bottom/ 100px 100px;
+      
+        background-size: 100px 100px;
+}
+
+.margin {
+    background-color: chocolate;
+    margin: 5px;
+    padding: 30px 5px 30px;
+    border: solid 2px rgb(123, 65, 10) ;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 4px solid rgb(228, 235, 95);
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    text-decoration: underline;
+    text-shadow: 3px 5px 3px rgb(116, 186, 49);
+}
+
+
+/* respect this order to have this result */
+a:link{
+    color: #f00;
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+a:hover{
+    color: darkmagenta;
+}
+
+a:active{
+    color: darkorange;
+}
+
+/* finish here */
+
+ul{
+    background-color: rgb(189, 189, 154);
+     list-style: lower-alpha;
+     padding-left: 10; 
+   /* list-style-position: outside ; */
+}
+
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px rgb(81, 64, 8);
+    padding: 5px;
+
+}
+
+th{
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: burlywood;
+}
+
+tr:hover{
+    background-color: rgb(229, 228, 233);
+    cursor:  pointer;
+}
+
+span {
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 300px;
+    background-color: blueviolet;
+}
+
+.inline {
+    display: inline;
+}
+
+#position{
+    position: sticky;
+    left: 20px;
+    top: 25px;
+}
+
+.left{
+    float: left;
+    width: 200px;
+    height:200px;
+}
+.right{
+    float: right;
+}
+
+.container{
+    height: 100px;
+}
+
+.column{
+    border: solid 0px #ddd;
+    border-radius: 5px;
+    margin: 0 ;
+    padding: 10px 0px;
+    width: 33.3%;
+}
+
+.inline-block{
+    display: inline-block;
+    height: 55px;
+    background-color: red;
+}
+
+.center{
+    padding: 50px 0 ;
+    text-align: center;
+    width: 200px;
+    margin: 0 auto;
+    background-color: rgb(80, 130, 130);
+}
